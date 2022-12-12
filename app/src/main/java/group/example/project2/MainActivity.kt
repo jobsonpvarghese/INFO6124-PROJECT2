@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
-        R.id.home ->{
+        R.id.map ->{
             val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
             true
