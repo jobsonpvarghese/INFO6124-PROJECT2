@@ -22,14 +22,44 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/about_page"
+        android:text="@string/christy_varghese"
         android:textSize="20sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.196"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hitarth_kakkad"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dwijen Rathod"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jobson P. Varghese"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="466dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
