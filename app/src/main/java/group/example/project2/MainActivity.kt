@@ -22,12 +22,18 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem) = when (item.itemId) {
         R.id.map ->{
             val intent = Intent(this, MapsActivity::class.java)
+//            intent.putExtra("LatLong", getAddress(LatLng(currentLocation.latitude,currentLocation.longitude)))
             startActivity(intent)
             true
         }
 
         R.id.places ->{
             val intent = Intent(this,PlacesActivity::class.java)
+            startActivity(intent)
+            true
+        }
+        R.id.email ->{
+            val intent = Intent(this,MailActivity::class.java)
             startActivity(intent)
             true
         }
