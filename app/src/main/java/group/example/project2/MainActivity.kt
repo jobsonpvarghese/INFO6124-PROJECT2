@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             true
         }
+
+        R.id.places ->{
+            val intent = Intent(this,PlacesActivity::class.java)
+            startActivity(intent)
+            true
+        }
         else -> super.onOptionsItemSelected(item)
     }
 }
